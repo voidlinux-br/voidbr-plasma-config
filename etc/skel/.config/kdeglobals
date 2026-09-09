@@ -1,3 +1,18 @@
+[General]
+ColorSchemeHash=b427148df9c2e3e2a0b09d8ed223496088d9634e
+TerminalApplication=xfce4-terminal
+
+[UiSettings]
+ColorScheme=qt6ct
+
+[Icons]
+Theme=Papirus-Dark
+
+[KDE]
+LookAndFeelPackage=org.kde.oxygen
+contrast=7
+frameContrast=0.2
+
 [ColorEffects:Disabled]
 ChangeSelectionColor=
 Color=56,56,56
@@ -12,139 +27,119 @@ IntensityEffect=2
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025
-ColorEffect=2
-ContrastAmount=0.1
+ColorAmount=-0.9
+ColorEffect=1
+ContrastAmount=0.25
 ContrastEffect=2
-Enable=false
+Enable=true
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=30,87,116
-BackgroundNormal=41,44,48
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=50,49,48
+BackgroundNormal=57,53,50
+DecorationFocus=255,217,190
+DecorationHover=255,229,208
+ForegroundActive=146,76,157
+ForegroundInactive=137,136,135
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=255,234,225
+ForegroundPositive=0,110,40
+ForegroundVisited=100,74,155
 
 [Colors:Complementary]
-BackgroundAlternate=30,87,116
-BackgroundNormal=32,35,38
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
-
-[Colors:Header]
-BackgroundAlternate=32,35,38
-BackgroundNormal=41,44,48
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
-
-[Colors:Header][Inactive]
-BackgroundAlternate=41,44,48
-BackgroundNormal=32,35,38
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=61,55,53
+BackgroundNormal=24,21,19
+DecorationFocus=58,167,221
+DecorationHover=110,214,255
+ForegroundActive=255,128,224
+ForegroundInactive=137,136,135
+ForegroundLink=88,172,255
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=231,253,255
+ForegroundPositive=0,110,40
+ForegroundVisited=150,111,232
 
 [Colors:Selection]
-BackgroundAlternate=30,87,116
-BackgroundNormal=61,174,233
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=252,252,252
-ForegroundInactive=161,169,177
-ForegroundLink=253,188,75
-ForegroundNegative=176,55,69
-ForegroundNeutral=198,92,0
-ForegroundNormal=252,252,252
-ForegroundPositive=23,104,57
-ForegroundVisited=155,89,182
+BackgroundAlternate=62,138,204
+BackgroundNormal=247,159,82
+DecorationFocus=240,213,194
+DecorationHover=255,229,208
+ForegroundActive=108,36,119
+ForegroundInactive=58,52,47
+ForegroundLink=0,49,110
+ForegroundNegative=156,14,14
+ForegroundNeutral=255,221,0
+ForegroundNormal=38,36,35
+ForegroundPositive=128,255,128
+ForegroundVisited=69,40,134
 
 [Colors:Tooltip]
-BackgroundAlternate=32,35,38
-BackgroundNormal=41,44,48
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=49,45,38
+BackgroundNormal=24,21,19
+DecorationFocus=240,213,194
+DecorationHover=255,229,208
+ForegroundActive=255,128,224
+ForegroundInactive=137,136,135
+ForegroundLink=88,172,255
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=255,242,228
+ForegroundPositive=0,110,40
+ForegroundVisited=150,111,232
 
 [Colors:View]
-BackgroundAlternate=29,31,34
-BackgroundNormal=20,22,24
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=33,31,30
+BackgroundNormal=30,29,29
+DecorationFocus=240,213,194
+DecorationHover=255,229,208
+ForegroundActive=146,76,157
+ForegroundInactive=137,136,135
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=255,230,222
+ForegroundPositive=0,110,40
+ForegroundVisited=100,74,155
 
 [Colors:Window]
-BackgroundAlternate=41,44,48
-BackgroundNormal=32,35,38
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=31,31,31
+BackgroundNormal=38,36,35
+DecorationFocus=240,213,194
+DecorationHover=255,229,208
+ForegroundActive=146,76,157
+ForegroundInactive=137,136,135
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=255,232,223
+ForegroundPositive=0,110,40
+ForegroundVisited=100,74,155
 
-[General]
-ColorSchemeHash=2c3f86428c11011a7c64ee1e7f47c274d498ff10
-
-[Icons]
-Theme=BeautyLine
-
-[KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=146
+View Style=DetailTree
 
 [WM]
-activeBackground=39,44,49
-activeBlend=252,252,252
-activeForeground=252,252,252
-inactiveBackground=32,36,40
-inactiveBlend=161,169,177
-inactiveForeground=161,169,177
+activeBackground=56,51,49
+activeBlend=0,0,0
+activeForeground=59,57,55
+inactiveBackground=24,23,23
+inactiveBlend=39,36,34
+inactiveForeground=218,206,195
